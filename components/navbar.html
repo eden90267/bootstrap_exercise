@@ -37,7 +37,7 @@
         
           <div class="col-md-3">
             
-<div class="list-group">
+<div class="list-group sticky-top">
   
     
       <a href="/components/alerts.html"  class="list-group-item">
@@ -170,19 +170,19 @@
         
         <div class="col-md-9 post">      
           <!-- 練習開始 -->
-          <h1 class="mt-0">Navbar</h1>
+          <h1 class="mt-0 sticky-top">Navbar</h1>
           
 <h2>範例</h2>
 
 <p>將以下的 "目標"，替換成 navbar 使其顯示正確</p>
 
 <div class="demo">
-  <nav class="目標 目標-light bg-light">
+  <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
   </nav>
 
   <!-- As a heading -->
-  <nav class="目標 目標-light bg-light">
+  <nav class="navbar navbar-light bg-light">
     <span class="h1" class="navbar-brand mb-0">Navbar</span>
   </nav>
 </div>
@@ -194,9 +194,9 @@
 <p>將以下的 "對應 ID"，替換成 #navbarSupportedContent 使其能夠運作</p>
 
 <div class="demo">
-  <nav class="navbar navbar-expand-目標 navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="對應 ID" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -227,7 +227,7 @@
 
 <div class="demo">
   <nav class="navbar navbar-light bg-light">
-    <a class="目標" href="#">
+    <a class="navbar-brand" href="#">
       <img src="http://www.hexschool.com/images/logo.png" width="164" height="39" alt="">  
     </a>
   </nav>
@@ -239,7 +239,7 @@
 
 <div class="demo">
   <nav class="navbar navbar-light bg-light">
-    <form class="目標">
+    <form class="form-inline">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
@@ -251,19 +251,19 @@
 <p>將以下的 "目標"，替換成不同色彩</p>
 
 <div class="demo">
-  <nav class="navbar navbar-dark bg-目標">
+  <nav class="navbar navbar-dark bg-primary">
     <span class="navbar-text">
       Navbar text with an inline element
     </span>
   </nav>
 
-  <nav class="navbar navbar-dark bg-目標">
+  <nav class="navbar navbar-dark bg-danger">
     <span class="navbar-text">
       Navbar text with an inline element
     </span>
   </nav>
 
-  <nav class="navbar navbar-light" style="background-color: 目標;">
+  <nav class="navbar navbar-light" style="background-color: #00cc99;">
     <span class="navbar-text">
       Navbar text with an inline element
     </span>
@@ -286,7 +286,7 @@
     <a class="navbar-brand" href="#">Fixed bottom</a>
   </nav>
 
-  <nav class="navbar navbar-light bg-light"><!-- 加入 sticky-top -->
+  <nav class="navbar navbar-light bg-light sticky-top"><!-- 加入 sticky-top -->
     <a class="navbar-brand" href="#">Sticky top</a>
   </nav>
 </div>
